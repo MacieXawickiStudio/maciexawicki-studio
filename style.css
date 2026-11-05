@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header{
+    background-color: #ffffff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+}
+header a{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 4vh;
+    text-decoration: none;
+    color: #000000;
+}
+nav{
+    background-color: #000000;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+}
+nav a{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2vh;
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 1vh 0 1vh;
+}
+nav a:hover{
+        color: #d0ff00;
+    }
+header a:hover{
+        color: #0011ff;
+}
+main{
+    background-color: #ffffff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 100%;
+    flex-direction: column;
+}
+.artykul{
+    background-color: #ffffff;
+    border: 1px solid #a5a5a5;
+    border-radius: 10px;
+    display: flex;
+    height: 30vh;
+    width: 75%;
+    margin: 5vh 0vh 5vh 0vh;
+}
+.grafikagry{
+    height: 30vh;
+}
+.grafikagry img{
+    height: 30vh;
+    border-radius: 10px 0px 0px 10px;
+}
+.laczenieopisugryztytulem{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.tytul{
+    height: 10vh;
+    width: 100%;
+    text-align: left;
+    
+}
+.tytul strong{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 5vh;
+    text-decoration: none;
+    color: #000000;
+    margin: 0vh 0vh 0vh 1vh;
+}
+.tytul strong a{
+    color: #000000;
+    text-decoration: none;
+}
+.opisgry{
+    height: 20vh;
+    width: 100%;
+    text-align: left;
+    font-family: 'Comic Relief', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2vh;
+    margin: 0 1vh 0 1vh;
+}
+.dolstrony{
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 100%;
+}
+.dolstrony p{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    color: #ffffff;
+}
